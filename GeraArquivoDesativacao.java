@@ -5,7 +5,7 @@ public class GeraArquivoDesativacao {
 
         // arquivo de entrada - padrão de projeto java decorator
 
-        FileInputStream arquivo = new FileInputStream("/Users/alex/Documents/workspace/ExemploDeIO/src/entrada");
+        FileInputStream arquivo = new FileInputStream("entrada.txt");
         InputStreamReader leitor = new InputStreamReader(arquivo);
         BufferedReader leitorbuffer = new BufferedReader(leitor);
 
